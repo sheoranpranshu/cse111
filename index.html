@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Your Name | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">&lt;YourName /&gt;</a>
+
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <button class="menu-btn" id="menuBtn">☰</button>
+        </div>
+    </header>
+
+
+    <!-- Hero -->
+    <main>
+
+        <section id="home" class="hero">
+            <div class="hero-content">
+
+                <p class="eyebrow">HELLO, I'M</p>
+
+                <h1>Your <span>Name</span></h1>
+
+                <h2>Student • Engineer • Developer</h2>
+
+                <p class="hero-description">
+                    I build things, break things, and learn how they work.
+                    Interested in software development, cybersecurity,
+                    Linux, and technology.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary">View My Work</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+
+                <div class="socials">
+                    <a href="#" aria-label="GitHub">GitHub</a>
+                    <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                    <a href="#" aria-label="Email">Email</a>
+                </div>
+
+            </div>
+
+            <div class="hero-visual">
+                <div class="terminal">
+
+                    <div class="terminal-top">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div class="terminal-content">
+                        <p><span class="green">user</span>@portfolio:~$ whoami</p>
+                        <p class="output">student_engineer</p>
+
+                        <p>
+                            <span class="green">user</span>@portfolio:~$
+                            cat interests.txt
+                        </p>
+
+                        <p class="output">
+                            Cybersecurity<br>
+                            Software Development<br>
+                            Linux<br>
+                            Networking<br>
+                            Problem Solving
+                        </p>
+
+                        <p>
+                            <span class="green">user</span>@portfolio:~$
+                            <span class="cursor"></span>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- About -->
+        <section id="about" class="section">
+            <div class="section-heading">
+                <p>01</p>
+                <h2>About Me</h2>
+            </div>
+
+            <div class="about-grid">
+
+                <div class="about-text">
+                    <h3>Curious about how things work.</h3>
+
+                    <p>
+                        I'm a student and engineer who enjoys understanding
+                        technology from the ground up. I like working with
+                        computers, software, networks, and security.
+                    </p>
+
+                    <p>
+                        My approach is simple: learn the fundamentals,
+                        build projects, experiment, and keep improving.
+                    </p>
+
+                    <a href="#contact" class="text-link">
+                        Let's work together →
+                    </a>
+                </div>
+
+                <div class="about-stats">
+                    <div class="stat">
+                        <strong>01</strong>
+                        <span>Curiosity</span>
+                    </div>
+
+                    <div class="stat">
+                        <strong>02</strong>
+                        <span>Problem Solving</span>
+                    </div>
+
+                    <div class="stat">
+                        <strong>03</strong>
+                        <span>Continuous Learning</span>
+                    </div>
+
+                    <div class="stat">
+                        <strong>04</strong>
+                        <span>Building</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Skills -->
+        <section id="skills" class="section">
+            <div class="section-heading">
+                <p>02</p>
+                <h2>Skills</h2>
+            </div>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <div class="skill-number">01</div>
+                    <h3>Programming</h3>
+                    <p>
+                        Python, C/C++, JavaScript, HTML, CSS
+                    </p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-number">02</div>
+                    <h3>Cybersecurity</h3>
+                    <p>
+                        Network security, digital forensics,
+                        threat detection, security analysis
+                    </p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-number">03</div>
+                    <h3>Systems</h3>
+                    <p>
+                        Linux, Windows, operating systems,
+                        command line and system administration
+                    </p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-number">04</div>
+                    <h3>Networking</h3>
+                    <p>
+                        TCP/IP, DNS, HTTP, packet analysis,
+                        network monitoring
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Projects -->
+        <section id="projects" class="section">
+            <div class="section-heading">
+                <p>03</p>
+                <h2>Projects</h2>
+            </div>
+
+            <div class="projects-grid">
+
+                <article class="project-card featured">
+
+                    <div class="project-top">
+                        <span class="project-icon">◈</span>
+                        <span class="project-status">ACTIVE</span>
+                    </div>
+
+                    <h3>VeilWatcher</h3>
+
+                    <p>
+                        A hybrid AI-based network sensor designed to detect
+                        covert channels and suspicious data exfiltration
+                        through behavioral analysis.
+                    </p>
+
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>AI</span>
+                        <span>Networking</span>
+                        <span>Cybersecurity</span>
+                    </div>
+
+                    <a href="#" class="project-link">
+                        View Project ↗
+                    </a>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-top">
+                        <span class="project-icon">⌘</span>
+                    </div>
+
+                    <h3>Project Two</h3>
+
+                    <p>
+                        A software project focused on solving a practical
+                        problem using modern programming techniques.
+                    </p>
+
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>Linux</span>
+                    </div>
+
+                    <a href="#" class="project-link">
+                        View Project ↗
+                    </a>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-top">
+                        <span class="project-icon">◇</span>
+                    </div>
+
+                    <h3>Project Three</h3>
+
+                    <p>
+                        An experimental project built to explore new
+                        technologies, systems, and development concepts.
+                    </p>
+
+                    <div class="tags">
+                        <span>C++</span>
+                        <span>Systems</span>
+                    </div>
+
+                    <a href="#" class="project-link">
+                        View Project ↗
+                    </a>
+
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- Contact -->
+        <section id="contact" class="section contact-section">
+
+            <div class="contact-content">
+
+                <p class="eyebrow">04 — GET IN TOUCH</p>
+
+                <h2>Let's build something.</h2>
+
+                <p>
+                    Have an idea, project, or just want to talk about
+                    technology? Feel free to reach out.
+                </p>
+
+                <a href="mailto:your@email.com" class="btn primary">
+                    Say Hello →
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© <span id="year"></span> Your Name</p>
+
+        <p>Built with HTML, CSS & JavaScript.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
